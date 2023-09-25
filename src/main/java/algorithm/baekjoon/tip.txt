@@ -1,0 +1,9 @@
+백준 속도
+    - Scanner는 속도가 느리다. BufferedReader와 Integer.parseInt를 사용하자.
+    - print는 그때그때 하는게 아니고, StringBuilder에 build 후 한꺼번에 하자. -> bw를 쓰기도 함. (flush 해주기!)
+    - 예외처리 안하더라.
+
+알게된 것
+    - (( ) ? minQueue : maxQueue ).offer(3); 같이, 삼항연산자 리턴값을 객체로 받아 바로 사용도 가능하다!!!
+    - 덧셈뺄셈은 */에 비해 속도가 매우 빠르다??
+    - n^2만 아니면 할만하다..
